@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(93, 159, 133);
+  font-family: "Varela", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 65%;
+  width: 50%;
+  position: absolute;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.container {
+  margin: 20px 50px;
+}
+.account {
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.3s;
+}
+.account:hover {
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.2);
+}
+.order {
+  color: rgb(197, 197, 197);
+}
+.info-Item {
+  color: rgb(139, 139, 139);
+}
+h3 {
+  color: rgb(105, 105, 105);
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bike {
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+  transform: translateY(-100px);
+}
