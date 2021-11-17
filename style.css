@@ -29,6 +29,7 @@ body {
   border-radius: 50%;
   padding: 10px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .account:hover {
   -webkit-box-shadow: 0px 0px 9px 3px rgba(34, 60, 80, 0.2);
