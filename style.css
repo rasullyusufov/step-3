@@ -58,5 +58,6 @@ h3 {
   position: absolute;
   z-index: 1;
   width: 500px;
-  transform: translateY(-100px);
+  transform: translateY(-100px );
+  margin-left: 20px;
 }
